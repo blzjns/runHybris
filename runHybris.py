@@ -105,7 +105,7 @@ if __name__ == '__main__':
 
         yn = raw_input("Wanna debug? Please enter 'Yes' or 'No': [Default=No] ")
 
-        if yn.lower() in {"y", "yes", "yea", "yeah", "si", "go", "aye", "sure", "ja", "sim", ""}:
+        if yn.lower() in {"y", "yes", "yea", "yeah", "si", "go", "aye", "sure", "ja", "sim"}:
             Hybris.debug = True
         else:
             print ConsoleColors.BOLD + "Debug set to false!"
